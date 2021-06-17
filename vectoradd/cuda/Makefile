@@ -64,6 +64,6 @@ run: $(PROG)
 	@echo #prun -v -np 1 -native '-l gpu=GTX480' $(PROG) $(arg)
 	@echo #prun -v -np 1 -native '-l gpu=C2050' $(PROG) $(arg)
 	@echo #prun -v -np 1 -reserve 73038 $(PROG)
-	OCL_OPTIONS=$(OCL_OPTIONS) ./$(PROG) $(arg)
+	./$(PROG) $(arg)
 
 sinclude $(DEPFILE)
