@@ -15,7 +15,7 @@
  */
 
 
-#include "matrixmultiplication/matrixmultiplication.h"
+#include "vectoradd/vectoradd.h"
 #include "timer.h"
 
 
@@ -31,7 +31,7 @@ void vectoraddCPU(int n, float *c, float *a, float *b) {
     timer t("cpu");
 
     t.start();
-    vectoraddCPUKernel(n, m, p, c, a, b);
+    vectoraddCPUKernel(n, c, a, b);
     t.stop();
 
     std::cerr << t << std::endl;
