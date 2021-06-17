@@ -1,3 +1,9 @@
 [submodule "lib/lib-io-data"]
 	path = lib/lib-io-data
 	url = https://github.com/JungleComputing/lib-io-data.git
+[submodule "lib/lib-timer"]
+	path = lib/lib-timer
+	url = https://github.com/JungleComputing/lib-timer.git
+[submodule "lib/lib-opencl-wrapper"]
+	path = lib/lib-opencl-wrapper
+	url = https://github.com/JungleComputing/lib-opencl-wrapper.git
