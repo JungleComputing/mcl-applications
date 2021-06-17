@@ -1,0 +1,7 @@
+/vectoradd
+/.depends
+/kernels.o
+/main.o
+/out_cpu
+/out_mcl
+/vecadd
