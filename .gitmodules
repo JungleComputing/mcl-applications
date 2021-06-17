@@ -1,0 +1,3 @@
+[submodule "lib/lib-io-data"]
+	path = lib/lib-io-data
+	url = https://github.com/JungleComputing/lib-io-data.git
