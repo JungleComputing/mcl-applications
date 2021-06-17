@@ -52,11 +52,8 @@ $(PROGNAME): $(DEPFILE) $(OBJ) $(LIB_FILES)
 %.o: %.cpp
 	$(CC) $(CFLAGS) -c $< -o $@
 
-%.s: %.cpp
-	$(CC) -S $(CFLAGS) -c $< -o $@
-
 clean:
-	rm -f *.s *.o $(PROGNAME) out_* $(DEPFILE)
+	rm -f $(OBJ) $(PROGNAME) out_* $(DEPFILE)
 
 $(DEPFILE):
 	$(CC) -M $(DEPFLAGS) $(CFLAGS) $(SRC) > $@
